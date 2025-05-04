@@ -1,0 +1,77 @@
+@tailwind base;
+
+@layer base {
+  @font-face {
+    font-family: gt-super;
+    src: url("./assets/fonts/gt-super-400-normal.woff");
+  }
+
+  @font-face {
+    font-family: sohne;
+    src: url("./assets/fonts/sohne-400-normal.woff");
+  }
+
+  @font-face {
+    font-family: sohne-italic;
+    src: url("./assets/fonts/sohne-400-italic.woff");
+  }
+
+  @font-face {
+    font-family: sohne-bold;
+    src: url("./assets/fonts/sohne-700-normal.woff");
+  }
+
+  @font-face {
+    font-family: sohne-semibold;
+    src: url("./assets/fonts/sohne-500-normal.woff");
+  }
+
+  @font-face {
+    font-family: fell;
+    src: url("./assets/fonts/fell-400-normal.woff");
+  }
+
+  @font-face {
+    font-family: content-serif;
+    src: url("./assets/fonts/content-serif.woff");
+  }
+
+  @font-face {
+    font-family: content-sans;
+    src: url("./assets/fonts/content-sans.woff");
+  }
+
+  @font-face {
+    font-family: content-sans-bold;
+    src: url("./assets/fonts/content-sans-bold.woff");
+  }
+
+  @font-face {
+    font-family: source-serif-pro;
+    src: url("./assets/fonts/source-serif-pro-400-normal.woff");
+  }
+
+  @font-face {
+    font-family: source-serif-pro-bold;
+    src: url("./assets/fonts/source-serif-pro-700-normal.woff");
+  }
+
+  /* Apply color to google icon */
+  .fa-google {
+    background: conic-gradient(
+        from -45deg,
+        #ea4335 110deg,
+        #4285f4 90deg 180deg,
+        #34a853 180deg 270deg,
+        #fbbc05 270deg
+      )
+      73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
