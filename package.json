@@ -34,6 +34,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "predeploy": "npm run build",
+    "format": "prettier --write .",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
